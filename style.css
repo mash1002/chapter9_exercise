@@ -13,15 +13,12 @@
 .main{
   width: 100%;
   background-color: #fff;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+  display: flex;
 
 }
 
 .main-box{
   width: 300px;
-  display: inline-block;
   background-position: center;
   margin: 50px 30px 50px 30px;
   /*padding: 10px 10px;*/
@@ -37,6 +34,10 @@
 
 .main-text{
   background-color: #EEEEEE
+}
+
+.title{
+  margin: 15px 0px 5px;
 }
 
 .main-image1{
@@ -73,7 +74,7 @@
   background-color: #AAAAAA
 }
 
-@media screen and (max-width:425px){
+@media screen and (max-width:768px){
   .header{
     width: 100%;
   }
@@ -85,6 +86,15 @@
   .main{
     display: block;
     width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .main-box{
+    width: 90%;
+    margin: 0 auto 20px ;
+
+
   }
 
 }
