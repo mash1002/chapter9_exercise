@@ -21,14 +21,17 @@
   width: 300px;
   background-position: center;
   margin: 50px 30px 50px 30px;
-  /*padding: 10px 10px;*/
+  padding: 10px;
   background-color: #EEEEEE;
+  position: relative;
 }
 
 .number{
   background-color: #FF9A4B;
   color: #fff;
   position:absolute;
+  top: 0;
+  left:0;
 
 }
 
@@ -46,8 +49,7 @@
   background-position: center;
   background-size: 100% 100%;
   /*background-size: cover;*/
-  margin: 10px ;
-  padding: 10px 10px 15px 10px;
+
 }
 
 .main-image2{
@@ -55,8 +57,7 @@
   height:150px;
   background-size: 100% 100%;
   background-position: center;
-  margin: 10px;
-  padding: 10px 10px 15px 10px;
+
 }
 
 .main-image3{
@@ -64,8 +65,7 @@
   height:150px;
   background-position: center;
   background-size: 100% 100%;
-  margin: 10px;
-  padding: 10px 10px 15px 10px;
+
 }
 
 .footer{
@@ -93,6 +93,7 @@
   .main-box{
     width: 90%;
     margin: 0 auto 20px ;
+
 
 
   }
